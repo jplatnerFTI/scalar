@@ -1,5 +1,5 @@
 use std::ops::{Add, Mul, Sub};
-mod implementations;
+pub mod implementations;
 mod tests;
 
 pub trait Lerp: Copy + Sub<Output = Self> + Mul<Output = Self> + Add<Output = Self> {

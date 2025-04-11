@@ -1,5 +1,5 @@
 use std::ops::{Div, Sub};
-mod implementations;
+pub mod implementations;
 mod tests;
 
 use crate::{error::ScalarError, lerp::Lerp};
